@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Ominel</string>
+    <string name="type">Type url or what you\'re looking for</string>
+    <string name="lets_go">Let\'s Go Browsing!</string>
+    <string name="tugaskita">TugasKita</string>
+    <string name="for_you">for you from</string>
 </resources>

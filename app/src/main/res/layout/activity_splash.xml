@@ -8,7 +8,6 @@
     tools:context=".SplashActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
         android:layout_width="200dp"
         android:layout_height="200dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -16,6 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ominel_banner"
+        android:contentDescription="TODO"
         tools:srcCompat="@drawable/ominel_banner" />
 
     <TextView
@@ -23,20 +23,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:text="TugasKita"
+        android:text="@string/tugaskita"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:fontFamily="monospace"
+        app:fontFamily="sans-serif"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="for you from"
+        android:text="@string/for_you"
         android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
